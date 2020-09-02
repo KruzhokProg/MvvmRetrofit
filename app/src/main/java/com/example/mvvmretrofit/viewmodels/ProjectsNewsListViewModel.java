@@ -33,5 +33,6 @@ public class ProjectsNewsListViewModel extends ViewModel {
 
     public void getListProjectsNewsApi(int pageNumber, int pageLimit){
         mProjectsNewsRepository.getListProjectsNewsApi(pageNumber, pageLimit);
+        // test branch
     }
 }
